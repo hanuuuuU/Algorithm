@@ -5,7 +5,7 @@ mini=9999999999
 front=0
 end=n-1
 answer=[0,0]
-while front<=end:
+while front<end:
     s=liq[front]+liq[end]
     if abs(s)<mini:
         answer[0]=liq[front]
