@@ -1,3 +1,5 @@
+# 2343과 같은 유형의 문제
+
 import sys
 input=sys.stdin.readline
 n,m=map(int,input().split())
@@ -20,5 +22,3 @@ while start<=end:
     else:
         start=mid+1
 print(answer)
-
-# 2343과 같은 유형의 문제
